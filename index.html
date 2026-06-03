@@ -69,6 +69,15 @@
         letter-spacing: 0.02em;
       }
       a:hover { border-bottom-color: var(--deep-blue); }
+      footer {
+        position: fixed;
+        bottom: 1.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.75rem;
+        color: var(--muted);
+        opacity: 0.6;
+      }
       @media (prefers-reduced-motion: no-preference) {
         main { animation: fade-in 800ms ease-out both; }
       }
@@ -109,5 +118,6 @@
       <!-- TODO before ship: confirm hello@masalife.app is monitored, or swap for live inbox. -->
       <a href="mailto:hello@masalife.app">hello@masalife.app</a>
     </main>
+    <footer>© 2026 Masa Life LLC</footer>
   </body>
 </html>
