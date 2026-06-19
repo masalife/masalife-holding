@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "masalife-co-holding",
+  "name": "masalife-holding",
   "compatibility_date": "2026-06-03",
   "observability": {
     "enabled": true
