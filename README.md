@@ -1,4 +1,4 @@
-# masalife.co — holding page
+# masa.life — holding page
 
 Single static page on the `.co` apex. Brand-correct, quiet, no funnel.
 Lives **outside** the Lovable app so a change here can never break Masa.
@@ -27,7 +27,7 @@ files at the root:
 
 ### 2. Cloudflare account
 
-- Add `masalife.co` as a site on Cloudflare (Free plan is fine).
+- Add `masa.life` as a site on Cloudflare (Free plan is fine).
 - Cloudflare will give you two nameservers (e.g.
   `xxx.ns.cloudflare.com`).
 
@@ -51,16 +51,15 @@ Propagation: usually <1 hour, sometimes a few.
 
 ### 5. Verify
 
-- `curl -I https://masalife.co` → 200, headers from `_headers`
+- `curl -I https://masa.life` → 200, headers from `_headers`
   applied.
 - Page renders Warm Mist background, Deep Blue wordmark, one line of
   copy, one mailto link. Nothing else.
 
 ## Before shipping
 
-- [ ] Confirm `hello@masalife.app` (or whichever inbox is chosen) is
+- [ ] Confirm `hello@masa.life` (or whichever inbox is chosen) is
       live and monitored. Search `index.html` for the `TODO` comment.
-- [ ] Confirm `.co` Namecheap DNS has nothing worth preserving.
 
 ## 6/13 cutover (masa.life)
 
